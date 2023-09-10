@@ -1,7 +1,7 @@
 /******************************************************************************
 
 autor  Leonardo Carvalho    
-QUESTAO 2 
+		QUESTAO 2 
 Ler um vetor (A) com 15 elementos. Construir um vetor B do mesmo tipo e tamanho,
 sendo que cada elemento de B seja o triplo do elemento correspondente de A.
 *******************************************************************************/
@@ -10,19 +10,35 @@ sendo que cada elemento de B seja o triplo do elemento correspondente de A.
 
 int main()
 {
-    float aux,aux2;
-    printf("Olá, tudo bem, por favor digite dois numeros\n");
-    printf("digite o numero 1 : ");
-    scanf("%f",& aux);
-    printf("digite o numero 2 : ");
-    scanf("%f", &aux2);
+
+float aux[15],aux2[15], aux3;
+int i, j = 15;
+printf("Olá, tudo bem, por favor digite 15 numeros\n");
     
-    if(aux < aux2){
-        printf("o numero maior e o %.2f \n", aux2);
+    for( i = 0 ; i < j; i++) 
+    {
+    printf("\n Digite o número %d : ", i+1);
+    scanf("%2f", &aux3);
+    aux[i] = aux3;
+    aux2[i] = aux3 * 3;
+      
     }
-    if(aux> aux2){
-        printf("o numero maior e o %.2f \n", aux);
+    printf("\n\n");
+    printf(" Vetor A \n");
+    for( i = 0 ; i < j; i++) 
+    {
+    printf(" %.2f ", aux[i]);
+    
     }
+    printf("\n\n\n");
+    printf(" Vetor B \n ");
+    for( i = 0 ; i < 6; i++) 
+    {
+    
+    printf("%.2f ", aux2[i]);
+    }
+    
+    printf("\n\n\n");
     return 0;
 }
 
