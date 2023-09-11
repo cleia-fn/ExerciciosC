@@ -5,7 +5,6 @@ autor  Leonardo Carvalho
 Ler um vetor (A) com 15 elementos. Construir um vetor B do mesmo tipo e tamanho,
 sendo que cada elemento de B seja o triplo do elemento correspondente de A.
 *******************************************************************************/
-
 #include <stdio.h>
 
 int main()
@@ -32,7 +31,7 @@ printf("Olá, tudo bem, por favor digite 15 numeros\n");
     }
     printf("\n\n\n");
     printf(" Vetor B \n ");
-    for( i = 0 ; i < 6; i++) 
+    for( i = 0 ; i < j; i++) 
     {
     
     printf("%.2f ", aux2[i]);
@@ -41,4 +40,3 @@ printf("Olá, tudo bem, por favor digite 15 numeros\n");
     printf("\n\n\n");
     return 0;
 }
-

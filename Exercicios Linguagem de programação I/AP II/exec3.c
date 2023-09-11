@@ -7,22 +7,37 @@ onde i é fornecida pelo usuário.
 *******************************************************************************/
 
 #include <stdio.h>
-
 int main()
 {
-    float aux,aux2;
-    printf("Olá, tudo bem, por favor digite dois numeros\n");
-    printf("digite o numero 1 : ");
-    scanf("%f",& aux);
-    printf("digite o numero 2 : ");
-    scanf("%f", &aux2);
+
+int i = 0,j = 0 , k = 0;
+
+printf("Olá, por favor digite o tamanho desejado da sua matriz : ");
+scanf("%d", &k);
+
+float aux[k][k];    
+
+    for( i = 0 ; i < k; i++) 
+    {
+    	for (j = 0; j < k; j++){
+    		printf("digite o numero desejado na linha %d, coluna %d da sua matriz %d x %d : ", i,j, k,k);
+    		scanf("%2f", &aux[i][j]);
+    	
+      
+    	}
+    }
+    printf("\n\n");
     
-    if(aux < aux2){
-        printf("o numero maior e o %.2f \n", aux2);
+    for( i = 0 ; i < k; i++) 
+    {
+     /*
+     printf(" | \n");*/
+    	for (j = 0; j < k; j++){
+    		printf("| %.2f ", aux[i][j]);
+    		
+    	}
+    	printf("|\n");
     }
-    if(aux> aux2){
-        printf("o numero maior e o %.2f \n", aux);
-    }
+    printf("\n\n\n");
     return 0;
 }
-
