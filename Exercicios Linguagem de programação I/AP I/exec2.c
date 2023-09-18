@@ -2,7 +2,7 @@
 
 autor  Leonardo Carvalho    
 
-				QUESTAO 2 
+				 =================QUESTAO 2 
  2 - Escreva um programa para ler o número de lados de um polígono regular e a medida
 do lado (em cm). Calcular e imprimir o seguinte:
 − Se o número de lados for igual a 3 escrever TRIÂNGULO e o valor da área
@@ -26,7 +26,7 @@ int main()
     	scanf("%f", &aux2);
        
     area = (aux * aux2 )/ 2;
-    printf(" a area do seu triangulo é %.2f \n", area);
+    printf(" a area do seu triangulo é %.2f  cm²\n", area);
      	       }
      	          
     if(num == 4 ){
@@ -37,7 +37,7 @@ int main()
         scanf("%f", &aux2);
             
     area = aux * aux2;
-    printf(" A area do quadrado é : %.2f \n", area);
+    printf(" A area do quadrado é : %.2f cm²\n ", area);
 
         }
        
@@ -49,7 +49,7 @@ int main()
         	scanf("%f", &aux2);
             
     area = 5*aux * aux2;    
-    printf(" o resultado e : %.2f \n", area);
+    printf(" o resultado e : %.2f cm²\n", area);
 
         }
        

@@ -13,7 +13,7 @@ int main()
     float aux,aux2;
     printf("Olá, tudo bem, por favor digite dois numeros\n");
     printf("digite o numero 1 : ");
-    scanf("%f",& aux);
+    scanf("%f", &aux);
     printf("digite o numero 2 : ");
     scanf("%f", &aux2);
     
