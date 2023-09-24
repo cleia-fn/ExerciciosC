@@ -1,5 +1,8 @@
 /******************************************************************************
+
+                           
 autor : Leonardo Carvalho
+                            
 Verifica se o numero escolhido é impar ou par.
 *******************************************************************************/
 
@@ -7,16 +10,16 @@ Verifica se o numero escolhido é impar ou par.
 
 int main()
 {
-    int num;
+int num;
     
-    printf("Digite o número que deseja descobrir se é impar ou par");
-    scanf("%i" &num);
+    printf("Digite o número que deseja descobrir se é impar ou par : ");
+    scanf("%d", &num);
     
     if(num % 2 == 0 ){
-    	printf("O número %d é par", num);
+    	printf("O número %d é par \n", num);
     }
     else
-    	printf(" O numero %d é impar", num);
+    	printf(" O numero %d é impar\n ", num);
     
 
     return 0;
