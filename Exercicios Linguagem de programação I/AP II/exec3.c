@@ -1,6 +1,6 @@
 /******************************************************************************
 
-autor  Cleia Renata    
+autor  KEVILY AMANDA   
 		QUETAO 3 
 Dada uma matriz real A(float), calcule a soma dos elementos de uma linha i da matriz,
 onde i é fornecida pelo usuário.
