@@ -1,6 +1,6 @@
 /******************************************************************************
 
-autor  Cleia Renata   
+autor  KEVILY AMANDA
 		QUESTAO 2 
 Ler um vetor (A) com 15 elementos. Construir um vetor B do mesmo tipo e tamanho,
 sendo que cada elemento de B seja o triplo do elemento correspondente de A.
