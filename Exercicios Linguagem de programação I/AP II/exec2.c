@@ -1,6 +1,6 @@
 /******************************************************************************
 
-autor  Leonardo Carvalho    
+autor  Cleia Renata   
 		QUESTAO 2 
 Ler um vetor (A) com 15 elementos. Construir um vetor B do mesmo tipo e tamanho,
 sendo que cada elemento de B seja o triplo do elemento correspondente de A.
@@ -12,7 +12,7 @@ int main()
 
 float aux[15],aux2[15], aux3;
 int i, j = 15;
-printf("Olá, tudo bem, por favor digite 15 numeros\n");
+printf("Olá, por favor digite 15 numeros\n");
     
     for( i = 0 ; i < j; i++) 
     {
