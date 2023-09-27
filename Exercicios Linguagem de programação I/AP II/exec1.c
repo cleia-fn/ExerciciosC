@@ -1,6 +1,6 @@
 /******************************************************************************
 
-autor  Leonardo Carvalho    
+autor  KEVILY AMANDA
 		QUESTAO 1 
  – Preencher um vetor com 10 elementos. Encontrar e imprimir o maior elemento
 *******************************************************************************/
