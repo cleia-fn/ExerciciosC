@@ -1,8 +1,8 @@
 /******************************************************************************
 
-autor  Leonardo Carvalho    
+   
 
-				 =================QUESTAO 2 
+				 =================QUESTAO II
  2 - Escreva um programa para ler o número de lados de um polígono regular e a medida
 do lado (em cm). Calcular e imprimir o seguinte:
 − Se o número de lados for igual a 3 escrever TRIÂNGULO e o valor da área
